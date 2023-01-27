@@ -13,6 +13,7 @@
     --my-brown : #993300;
     --go-green : #00ff99;
     --smartgreen : #2AD5BA;
+    --link-color: #104977;
 
 }
 /*
@@ -98,6 +99,15 @@ main {
     align-content: center;
 }
 
+.senior-late {
+    color: var(--link-color);
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.senior-late :hover {
+    color: var(--my-orange);
+}
 #web-link {
     color: #1EB53A;
 }
