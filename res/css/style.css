@@ -101,9 +101,8 @@ main {
 
 .senior-late {
     color: var(--link-color);
-    font-size:large;
-    font-weight:bolder;
-    
+    font-size: smaller;
+    font-weight: bold;
 }
 
 .senior-late :hover {
@@ -112,7 +111,12 @@ main {
 
 .scholar-info {
     font-size: small;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.scholar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 #web-link {
     color: #1EB53A;
